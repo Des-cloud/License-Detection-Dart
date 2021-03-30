@@ -1,0 +1,10 @@
+name: spdx_license_detector
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+
+dependencies: 
+  http: ^0.13.1
+  # github: ^8.0.1
+  xml: ^5.0.2
