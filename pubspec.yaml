@@ -6,5 +6,8 @@ environment:
 
 dependencies: 
   http: ^0.13.1
-  # github: ^8.0.1
+  dotenv: ^2.0.0
   xml: ^5.0.2
+
+assets:
+  - .env

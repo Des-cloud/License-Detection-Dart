@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "args",
+      "rootUri": "file:///Users/nyuad/.pub-cache/hosted/pub.dartlang.org/args-1.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
       "name": "charcode",
       "rootUri": "file:///Users/nyuad/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0",
       "packageUri": "lib/",
@@ -12,6 +18,18 @@
       "rootUri": "file:///Users/nyuad/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "dart2_constant",
+      "rootUri": "file:///Users/nyuad/.pub-cache/hosted/pub.dartlang.org/dart2_constant-1.0.2+dart2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "dotenv",
+      "rootUri": "file:///Users/nyuad/.pub-cache/hosted/pub.dartlang.org/dotenv-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "1.8"
     },
     {
       "name": "http",
@@ -86,7 +104,7 @@
       "languageVersion": "2.10"
     }
   ],
-  "generated": "2021-03-30T20:30:53.156154Z",
+  "generated": "2021-03-31T02:20:00.097968Z",
   "generator": "pub",
   "generatorVersion": "2.12.2"
 }

@@ -1,17 +1,23 @@
 import 'package:http/http.dart' as http;
+import 'package:dotenv/dotenv.dart' show load, env;
 
 void main() async {
+  load("./../.env");
   //Get url
-  var url = Uri.parse(
-      'https://raw.githubusercontent.com/spdx/license-list-XML/master/src/0BSD.xml');
+  try {
+    var url = Uri.parse(env['URL']);
 
-  // Await the http get response
-  var response = await http.get(url);
+    // Await the http get response
+    var response = await http.get(url);
 
-  //If alright
-  if (response.statusCode == 200) {
-    print(response.body.runtimeType);
-  } else {
-    print('Request failed with status: ${response.statusCode}.');
+    //If alright
+    if (response.statusCode == 200) {
+      print(response.body);
+    } else {
+      print('Request failed with status: ${response.statusCode}.');
+    }
+  } catch (e) {
+    print("I am here");
+    print(e);
   }
 }
