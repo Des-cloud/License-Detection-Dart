@@ -17,7 +17,6 @@ void main() async {
       print('Request failed with status: ${response.statusCode}.');
     }
   } catch (e) {
-    print("I am here");
     print(e);
   }
 }
